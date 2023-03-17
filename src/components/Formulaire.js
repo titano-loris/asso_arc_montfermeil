@@ -17,8 +17,8 @@ function Formulaire() {
     const [session, setSession] = useState("");
 
     const form = useRef();
-    const handleSubmit = (event) => {    //sera appelée lorsque l'utilisateur soumettra le formulaire
-        event.preventDefault();          //empêche la soumission par défaut du formulaire
+    const handleSubmit = (event) => {    //use email.js when pushing the form 
+        event.preventDefault();
 
         emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, "YOUR_PUBLIC_KEY")
             .then(
