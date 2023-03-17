@@ -1,0 +1,16 @@
+.lmj-Tuto {
+    color: white;
+    background-color: black;
+    top: 200;
+    margin-left: 62px;
+    width: 1630 px;
+    height: 40%;
+    margin-top: 15px;
+    padding: 30px;
+    font-family: "Arial Rounded MT bold", Geneva, sans-serif;
+    box-shadow: 6px 6px 6px grey;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}

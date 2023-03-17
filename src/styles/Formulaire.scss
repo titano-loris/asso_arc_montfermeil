@@ -1,0 +1,41 @@
+.lmj-formulaire {
+    color: rgb(60, 86, 173);
+    background-color: rgb(208, 186, 74);
+    top: 200;
+    margin: 180px;
+    margin-top: 50px;
+    width: 80 px;
+    height: 40%;
+    padding: 30px;
+    font-family: "Arial Rounded MT bold", Geneva, sans-serif;
+    box-shadow: 6px 6px 6px grey;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+.form {
+
+    border: 3px solid;
+    border-radius: 100px;
+    color: rgb(25, 75, 204);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    outline: none;
+    padding: .5rem 1.5rem;
+    width: 160px;
+    margin-left: 15px;
+
+
+    &:focus {
+        border: 2px solid, ;
+        background-color: rgb(247, 247, 247);
+    }
+}
+
+.Form_label {
+    display: flex;
+    flex-direction: inherit;
+    margin: auto;
+}

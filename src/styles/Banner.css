@@ -1,0 +1,26 @@
+.lmj-banner {
+    color: black;
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 5px rgba(159, 86, 21, 0.76);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to bottom,
+            rgba(246, 244, 237, 0.781),
+            rgba(86, 125, 255, 0.966)), url('../Image/ciel.png');
+    opacity: 0.9;
+    background-size: (20%);
+}
+
+.lmj-imglogo {
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+}
+
+.text {
+    border-bottom: solid 1px rgba(5, 3, 1, 0.76);
+    ;
+}
